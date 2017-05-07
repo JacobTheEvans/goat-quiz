@@ -1,0 +1,257 @@
+/* Overall */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+  background-color: #142e2b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header h1 {
+  font-style: normal;
+  font-weight: normal !important;
+  color: #a2d377;
+  font-size: 5.3em;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+header p {
+  margin-top: 2px;
+  color: #a2d377;
+  font-size: 1.5em;
+}
+
+
+/* Main Page */
+
+.content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  max-width: 100%;
+}
+
+.about {
+  text-align: left;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+p {
+  font-size: 17px;
+}
+
+a {
+  color: #a2d377!important;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #0c802b !important;
+}
+
+button {
+  color: #a2d377!important;
+  text-decoration: none;
+  transition: color 0.5s ease-in-out;
+}
+
+button:hover {
+  color: #0c802b !important;
+}
+
+
+.link-button {
+  text-transform: capitalize;
+  font-size: 18px !important;
+}
+
+.goat-logo {
+  height: 210px;
+}
+
+.about-desc {
+  margin-top: 40px;
+  padding-left: 20%;
+  padding-right: 20px;
+}
+
+.quiz {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.quiz h3 {
+  font-size: 22px;
+  color: #142e2b;
+  line-height: 35px;
+}
+
+.quiz p {
+  text-align: center;;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: color 0.2s ease-in-out;
+}
+
+.quiz p:hover {
+  color: #a2d377;
+}
+
+.goat-logo-cont {
+  text-align: left;
+}
+
+.btn-section {
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.loading p {
+  font-size: 30px;
+}
+
+.result-container {
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.result-container h3 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.result-container h4 {
+  margin-top: -10px;
+  font-size: 37px;
+}
+
+.result-container p {
+  font-size: 19px;
+}
+
+.result-container h5 {
+  margin-top: -2px;
+  font-size: 17px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.result-container p {
+  margin: auto;
+}
+
+.btn-result-area {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btn-result-area .button {
+  margin-top: 37px;
+  margin-bottom: 10px;
+}
+
+.reset-area {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 552px) {
+  .about-desc {
+    padding-left: 20px;
+  }
+  .goat-logo-cont {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #304f3f;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  overflow-x: hidden;
+}
+
+.vault-logo {
+  font-size: 1.6em;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  filter: blur();
+}
+
+.vault-logo-img {
+  margin-top: 0px;
+  height: 60px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.side-footer-right {
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.side-footer-left {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+}
+
+@media (max-width: 552px) {
+  .side-footer-right {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .side-footer-left {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
